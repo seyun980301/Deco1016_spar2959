@@ -1,0 +1,249 @@
+html
+
+/* BACKGROUND */
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Helvetica, sans-serif;
+  width: 100%;
+  font-family: 'Cairo', sans-serif;
+}
+
+body {
+  background: #3d4571;
+  color: #fff
+}
+
+/* MENU TOP LEFT STICKY */
+.left_menu {
+  float: left;
+  position: sticky;
+  top:60px;
+  overflow: auto;
+}
+
+.left_menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 90px;
+  text-align: left;
+  background-color: #fff;
+  margin-top: 10px;
+  max-width: 100%;
+  top: 0;
+  overflow: hidden;
+}
+
+.left_menu li {
+  font-size: 13px;
+}
+
+.left_menu li a {
+  display: block;
+  padding: 8px 16px;
+  background-color: #dddddd;
+  text-decoration: none;
+  color: black;
+}
+
+.left_menu li a:hover {
+  background-color: #f4d623;
+  color: white;
+}
+
+/* TOP MIDDLE REGISTER */
+.Register h2 {
+  text-align: center;
+  margin-top: 60px;
+}
+
+/*STEP INDICATOR*/
+.steps {
+  letter-spacing: 0.4em;
+}
+  
+ #steps_number {
+  padding-right: 0.5em;
+  color: #f4d623;
+}
+
+/* FORM */
+
+/* FORM BORDER */
+main {
+  background: #fff;
+  width: 40%;
+  max-width: 400px;
+  margin: 15px auto;
+  padding: 2em;
+  border-radius: 15px;
+}
+
+/* FORM OBJECTS IN GRP */
+
+.welcome {
+    color: black;
+    text-align: center;
+}
+
+.information {
+  color: black;
+  text-align: center;
+}
+
+.tick {
+text-align: center;
+
+}
+
+.form-group {
+  margin-top: 5px;
+  margin-right: auto;
+  margin-left: auto;
+  color: #000;
+  font-size: 75%;
+  text-align: center;
+}
+
+/* FORM WORDS */
+.form-group label {
+  color: #000000;
+  font-size: 0.8em;
+  text-align: right;
+  margin-right: 20px;
+  margin-left: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  max-width: 100px;
+  flex-grow: 1;
+  flex-shrink: 0;
+  flex-basis: 120px;
+}
+
+/* FORM MSG */
+.messages {
+  flex: 0 0 100%;
+  text-align: center;
+  padding: 5px 0;
+  color: #ff6361;
+}
+
+.form-group.has-error > input,
+.form-group.has-error > select  {
+  border: 2px solid #ff6361;
+}
+
+.form-group.has-success > input,
+.form-group.has-success > select  {
+  border: 2px solid #41a765;
+}
+
+/* FORM TEXT INPUT BOX */
+.form-group > input,
+.form-group > select  {
+  border: 0px; 
+  border-radius: 30px;
+  padding: 5px;
+  background-color: #e5e5e4;
+  }
+
+/* BUTTONS */
+.buttons {
+    margin: 0 auto;
+  }
+
+#previous {
+    margin-top: 30px;
+    width: 50px;
+    border: 0px;
+    border-radius: 6px;
+    background-color: #3d4571;
+    color: #fff;
+    padding: 3px;
+    cursor: pointer;
+   }
+  
+   #previous:hover {
+    background-color:#f4d623;
+    transition: ease 0.6s;
+   }
+  
+   #next {
+    margin-top: 30px;
+    width: 50px;
+    border: 0px;
+    border-radius: 6px;
+    background-color: #3d4571;
+    color: #fff;
+    padding: 3px;
+    cursor: pointer;
+   }
+  
+   #next:hover {
+    background-color:#f4d623;
+    transition: ease 0.6s;
+   }
+
+/* STEPS CIRCLES */
+.dot {
+  height: 10px;
+  width: 10px;
+  margin: 0 2px;
+  background-color: #fff;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+  #dot1 {
+background: #f4d623;
+}
+
+/* LEFT BOTTOM LOGO */
+.logo{
+  margin-top: 80px;
+  margin-left: 50px;
+  margin-bottom: 50px;
+  float: left;
+}
+ .logo img {
+    max-width: 50%;
+}
+
+/* FOOTER */
+.footer {
+ margin-top: 130px;
+ margin-bottom: 30px;
+ text-align: center;
+ margin-right: auto;
+ margin-left: auto;
+ padding-bottom: 2em;
+}
+  
+.footer_details {
+  font-size: 1px;
+  display: inline-block;
+}
+  
+.footer_details a {
+  color: #fff;
+  text-decoration: none;
+  letter-spacing: 0.1em;
+}
+  
+/* MEDIA QUERIES */
+@media only screen and (max-width: 400px) {
+  main {
+    width: auto;
+    border-radius: 0;
+  }
+  
+  form {
+    width: 100%;
+  }
+  
+  form > button {
+    width: 100%;
+  }
+}

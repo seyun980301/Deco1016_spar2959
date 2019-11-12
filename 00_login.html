@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="UTF-8">
+
+<!-- LINK CSS-->
+<link href="00_login.css" rel="stylesheet">
+<style>
+        @import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+        @import url('https://fonts.googleapis.com/css?family=Cairo&display=swap');
+        </style>
+<title>EVENTIX</title>
+</head>
+
+<!-- TOP -->
+
+<body>
+
+ <!-- TOP LEFT MENU -->
+  <div class="left_menu">
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="00_login.html">LOGIN</a></li>
+          <li><a href="mypage.html">MYPAGE</a></li>
+        </ul>
+      </div>
+
+    <!-- TOP MIDDLE REGISTER -->
+    <div class="Register">
+        <br><br><br><h2>LOG IN</h2>
+    </div>
+
+<main>
+
+    <!-- FORM -->
+    <form>
+        <div class="form-group">
+            <br><label for="ID">ID</label>
+            <input type="text" id="ID" name="ID" placeholder="ID">
+            <div class="messages"></div>
+
+            <label for="password">PASSWORD</label>
+            <input type="text" id="password" name="password" placeholder="PASSWORD">
+            <div class="messages"></div>
+
+
+         <!-- BUTTONS -->
+         <div class="buttons">
+            <div style="float: right;">
+               <!-- LOGIN BUTTON -->
+                <button id="login" type="submit" formaction="index.html"> LOGIN </button>
+               <!-- REGISTRATION BUTTON -->
+                <button id="register" formaction="01_signup.html"> REGISTER </button>
+            </div>
+         </div>
+        </div>
+     </form>
+
+</main>
+<br>
+
+     <!-- LEFT BOTTOM LOGO -->
+     <div class="logo">
+         <a href="index.html"><img src="logo.png" alt="EVENTIX logo" /></a>
+     </div>
+<br>
+
+     <div class="footer">
+
+         <div class="footer_details">
+            <a href="About_EVENTIX.html"> About EVENTIX </a>
+         </div>
+         <div class="footer_details">
+             | <a href="Contact_Us.html"> Contact Us </a> 
+         </div>
+         <div class="footer_details">
+             | <a href="FAQs.html"> FAQs </a>
+         </div>
+         <div class="footer_details">
+             |  <a href="Terms_of_Use.html"> Terms of Use </a>
+         </div>
+         <div class="footer_details">
+             | <a href="Terms_&_Conditions.html"> Terms & Conditions </a>
+         </div>
+         <div class="footer_details">
+             | <a href="Privacy_Policy.html"> Privacy Policy </a>
+         </div>
+     </div>
+
+     <!-- LINK JS-->
+     <script src="00_login.js"></script>
+
+</body>
+</html>

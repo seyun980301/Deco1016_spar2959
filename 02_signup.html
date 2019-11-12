@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="UTF-8">
+
+<!-- LINK CSS-->
+<link href="02_signup.css" rel="stylesheet">
+<style>
+        @import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+        @import url('https://fonts.googleapis.com/css?family=Cairo&display=swap');
+        </style>
+<title>EVENTIX</title>
+</head>
+
+<!-- TOP -->
+
+<body>
+
+     <!-- TOP LEFT MENU -->
+  <div class="left_menu">
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="00_login.html">LOGIN</a></li>
+          <li><a href="mypage.html">MYPAGE</a></li>
+        </ul>
+      </div>
+
+    <!-- TOP MIDDLE REGISTER -->
+    <div class="Register">
+        <br><br><br><h2>REGISTER</h2>
+    </div>
+
+    <!-- STEP INDICATOR -->
+    <div style="text-align:center">
+    <div class="steps">
+        <st><span id="steps_number">② </span></st>
+        <span> Personal Information</span>
+        </div>
+    </div>
+
+<main>
+
+    <!-- FORM -->
+    <form>
+        <div class="form-group">
+            <br><label for="first_name">First Name</label>
+            <input type="text" id="first_name" name="first_name" placeholder="First Name">
+            <div class="messages"></div>
+
+            <label for="last_name">Last Name</label>
+            <input type="text" id="last_name" name="last_name" placeholder="Last Name">
+            <div class="messages"></div>
+
+            <label for="date_of_birth">Date of Birth</label>
+            <input type="date" id="date_of_birth" name="date_of_birth">
+            <div class="messages"></div>
+
+            <label for="mobile_phone">Mobile Phone</label>
+            <input type="number" id="mobile_phone" name="mobile_phone" placeholder="Mobile Phone">
+            <div class="messages"></div>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Email@">
+            <div class="messages"></div>
+
+     <!-- BUTTONS -->
+     <div class="buttons">
+        <div style="text-align:center">
+           <!-- PREVIOUS BUTTON -->
+            <button id="previous" type="submit" formaction="01_signup.html"> ◀ </button>
+           <!-- NEXT BUTTON -->
+            <button id="next" type="submit" formaction="03_signup.html"> ▶ </button>
+        </div>
+    </div>
+
+         </div>
+     </form>
+</main>
+<br>
+
+     <!-- STEPS CIRCLES -->        
+     <div style="text-align:center">
+        <span id="dot1" class="dot" ></span> 
+        <span id="dot1" class="dot" ></span> 
+        <span class="dot" ></span> 
+        <span class="dot" ></span> 
+        <span class="dot" ></span> 
+    </div>
+
+     <!-- LEFT BOTTOM LOGO -->
+     <div class="logo">
+         <a href="index.html"><img src="logo.png" alt="EVENTIX logo" /></a>
+     </div>
+<br>
+
+     <div class="footer">
+
+         <div class="footer_details">
+            <a href="About_EVENTIX.html"> About EVENTIX </a>
+         </div>
+         <div class="footer_details">
+             | <a href="Contact_Us.html"> Contact Us </a> 
+         </div>
+         <div class="footer_details">
+             | <a href="FAQs.html"> FAQs </a>
+         </div>
+         <div class="footer_details">
+             |  <a href="Terms_of_Use.html"> Terms of Use </a>
+         </div>
+         <div class="footer_details">
+             | <a href="Terms_&_Conditions.html"> Terms & Conditions </a>
+         </div>
+         <div class="footer_details">
+             | <a href="Privacy_Policy.html"> Privacy Policy </a>
+         </div>
+     </div>
+
+     <!-- LINK JS-->
+     <script src="02_signup.js"></script>
+
+</body>
+</html>
